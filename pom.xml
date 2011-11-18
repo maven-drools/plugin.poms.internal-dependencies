@@ -28,7 +28,7 @@
 
   <groupId>de.lightful.maven.drools.plugin.poms</groupId>
   <artifactId>internal-dependencies</artifactId>
-  <version>0.2.5</version>
+  <version>0.2.6-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Maven Drools Support :: Plugin :: Dependency Management :: Internal Dependencies</name>
