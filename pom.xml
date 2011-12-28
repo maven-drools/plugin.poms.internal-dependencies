@@ -16,14 +16,15 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>de.lightful.poms</groupId>
     <artifactId>standard-plugins</artifactId>
-    <version>29</version>
+    <version>30</version>
   </parent>
 
   <groupId>de.lightful.maven.drools.plugin.poms</groupId>
@@ -38,17 +39,17 @@
       <dependency>
         <groupId>de.lightful.maven.drools.plugin</groupId>
         <artifactId>artifact-naming</artifactId>
-        <version>0.1.0</version>
+        <version>0.1.1</version>
       </dependency>
       <dependency>
-        <groupId>de.lightful.maven.drools.plugin</groupId>
+        <groupId>de.lightful.maven.drools</groupId>
         <artifactId>knowledge-io</artifactId>
-        <version>0.1.6</version>
+        <version>0.1.9</version>
       </dependency>
       <dependency>
-        <groupId>de.lightful.maven.drools.plugin.test-support</groupId>
+        <groupId>de.lightful.maven.testing</groupId>
         <artifactId>maven-verifier-testng</artifactId>
-        <version>0.1.10</version>
+        <version>0.1.12</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
